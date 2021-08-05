@@ -1,1 +1,26 @@
-/* Add your styling here: */
+
+body {
+    text-align: center;
+    background-color: tomato;
+}
+
+    
+#user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    
+}
+#user div{
+
+    border: solid black 5px;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 15px solid turquoise;
+    width: 500px;
+    padding: 25px;
+    margin: 25px;
+}
